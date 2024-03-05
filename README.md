@@ -7,7 +7,7 @@
 <Catalog
   datasets={[
     {
-      url_path: 'https://github.com/open-data-kazakhstan/aral-sea-area-visualization',
+      url_path: 'https://dev.datahub.io/@anuveyatsu/aral-sea',
       metadata: {
         name: 'aral-sea-area-visualization',
         title: 'Aral Sea Area Visualization using Satellite Imagery via Google Earth Engine'
