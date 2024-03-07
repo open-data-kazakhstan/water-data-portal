@@ -8,11 +8,55 @@
   datasets={[
     {
       _id: "aral-sea-area-visualization",
-      url_path: 'https://datahub.io/@anuveyatsu/aral-sea',
+      url_path: 'https://github.com/open-data-kazakhstan/aral-sea-area-visualization',
       metadata: {
         name: 'aral-sea-area-visualization',
-        title: 'Aral Sea Area Visualization using Satellite Imagery via Google Earth Engine'
+        title: 'Aral Sea Area Visualization using Satellite Imagery via Google Earth Engine.'
+      }
+    },
+    {
+      _id: "caspian-sea-area-visualization",
+      url_path: 'https://github.com/open-data-kazakhstan/caspian-sea-area-visualization',
+      metadata: {
+        name: 'caspian-sea-area-visualization',
+        title: 'The Caspian Sea historical water level data and visualizations since 1992.'
+      }
+    },
+    {
+      _id: "water-resources-and-demographics",
+      url_path: 'https://github.com/open-data-kazakhstan/water-resources-and-demographics',
+      metadata: {
+        name: 'water-resources-and-demographics',
+        title: 'Water Resources and Demographics Republic of Kazakhstan'
       }
     }
   ]}
 />
+
+## шолу
+
+### Арал теңізі
+
+<LineChart
+  title="Арал теңізінің болашағы бар ма? Диаграмма 1000 шаршы км аумақты көрсетеді."
+  data="https://raw.githubusercontent.com/open-data-kazakhstan/aral-sea-area-visualization/main/data/aral_area.csv"
+  xAxis="Year"
+  yAxis="Total"
+/>
+
+Шикі деректерді қарау:
+
+<FlatUiTable url="https://raw.githubusercontent.com/open-data-kazakhstan/aral-sea-area-visualization/main/data/aral_area.csv" />
+
+### Каспий теңізі
+
+<LineChart
+  title="Теңіз деңгейіне қатысты Каспий теңізіндегі су деңгейі."
+  data="https://raw.githubusercontent.com/open-data-kazakhstan/caspian-sea-area-visualization/main/data/caspian.csv"
+  xAxis="date"
+  yAxis="water level"
+/>
+
+Шикі деректерді қарау:
+
+<FlatUiTable url="https://raw.githubusercontent.com/open-data-kazakhstan/caspian-sea-area-visualization/main/data/caspian.csv" />
