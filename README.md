@@ -29,6 +29,14 @@
         name: 'water-resources-and-demographics',
         title: 'Water Resources and Demographics Republic of Kazakhstan'
       }
+    },
+    {
+      _id: "terrain-map-kz",
+      url_path: 'https://terrain-map-kz.vercel.app/',
+      metadata: {
+        name: 'terrain-map-kz',
+        title: 'Demo terrain map of Kazakhstan'
+      }
     }
   ]}
 />
