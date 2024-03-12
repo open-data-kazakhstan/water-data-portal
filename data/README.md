@@ -4,12 +4,12 @@
   title="Map"
   layers={[
     {
-      "data": "./rivers.geojson",
+      "data": "https://raw.githubusercontent.com/open-data-kazakhstan/water-data-portal/main/data/rivers.geojson",
       "name": "rivers",
       "tooltip": false
     },
     {
-      "data": "data/side_inflow.geojson",
+      "data": "https://raw.githubusercontent.com/open-data-kazakhstan/water-data-portal/main/data/side_inflow.geojson",
       "name": "side_inflow",
       "tooltip": false
     }
