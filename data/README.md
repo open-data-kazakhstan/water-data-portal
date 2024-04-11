@@ -25,7 +25,7 @@ title: Су ресурстарының картасы
     "longitude": 0
   }}
   zoom={2}
-  autoZoomConfiguration={
+  autoZoomConfiguration={{
     "layerName": "Points"
-  }
+  }}
 />
