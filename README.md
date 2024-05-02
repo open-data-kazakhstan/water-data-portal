@@ -62,7 +62,7 @@ title: Су ресурстарының деректер порталы 🇰🇿
 
 Шикі деректерді қарау:
 
-<FlatUiTable url="https://raw.githubusercontent.com/open-data-kazakhstan/aral-sea-area-visualization/main/data/aral_area.csv" />
+<FlatUiTable data={"url": "https://raw.githubusercontent.com/open-data-kazakhstan/aral-sea-area-visualization/main/data/aral_area.csv"} />
 
 ---
 
@@ -77,4 +77,4 @@ title: Су ресурстарының деректер порталы 🇰🇿
 
 Шикі деректерді қарау:
 
-<FlatUiTable url="https://raw.githubusercontent.com/open-data-kazakhstan/caspian-sea-area-visualization/main/data/caspian.csv" />
+<FlatUiTable data={"url": "https://raw.githubusercontent.com/open-data-kazakhstan/caspian-sea-area-visualization/main/data/caspian.csv"} />
