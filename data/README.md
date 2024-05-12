@@ -4,13 +4,13 @@ title: Су ресурстарының картасы
 
 <Map
   center={{
-    latitude: 45,
-    longitude: 0
+    latitude: 48,
+    longitude: 66
   }}
   layers={[
     {
       data: {
-        url: 'https://opendata.arcgis.com/datasets/9c58741995174fbcb017cf46c8a42f4b_25.geojson',
+        url: 'https://water.anuveyatsu.com/side_inflow.geojson',
       },
       name: 'Points',
       tooltip: true,
@@ -21,5 +21,5 @@ title: Су ресурстарының картасы
     }
   ]}
   title='Map test'
-  zoom={2}
+  zoom={3}
 />
