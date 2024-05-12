@@ -32,5 +32,5 @@ title: Су ресурстарының картасы
     }
   ]}
   title='Map test'
-  zoom={3}
+  zoom={4}
 />
