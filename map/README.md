@@ -15,8 +15,8 @@ title: Су ресурстарының картасы
       name: 'side_inflow',
       tooltip: true,
       colorScale: {
-        ending: '#00ff00',
-        starting: '#ff0000'
+        ending: '#5000A8',
+        starting: '#8700AA'
       },
     },
     {
@@ -26,11 +26,33 @@ title: Су ресурстарының картасы
       name: 'rivers',
       tooltip: true,
       colorScale: {
-        ending: '#00ff00',
-        starting: '#ff0000'
+        ending: '#5000A8',
+        starting: '#8700AA'
+      },
+    },
+    {
+      data: {
+        url: 'https://water.anuveyatsu.com/basin.geojson',
+      },
+      name: 'basin',
+      tooltip: true,
+      colorScale: {
+        ending: '#2AD587',
+        starting: '#8EE80E'
+      },
+    },
+    {
+      data: {
+        url: 'https://water.anuveyatsu.com/ne_110m_lakes.json',
+      },
+      name: 'lakes',
+      tooltip: true,
+      colorScale: {
+        ending: '#002C7C',
+        starting: '#00B2CB'
       },
     }
   ]}
-  title='Map test'
+  title='Map'
   zoom={4}
 />
