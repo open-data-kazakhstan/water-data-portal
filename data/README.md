@@ -9,26 +9,15 @@ title: Су ресурстарының картасы
   }}
   layers={[
     {
-      colorScale: {
-        ending: '#00ff00',
-        starting: '#ff0000'
-      },
-      data: {
-        url: 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_geography_marine_polys.geojson'
-      },
-      name: 'Polygons',
-      tooltip: {
-        propNames: [
-          'name'
-        ]
-      }
-    },
-    {
       data: {
         url: 'https://opendata.arcgis.com/datasets/9c58741995174fbcb017cf46c8a42f4b_25.geojson',
       },
       name: 'Points',
-      tooltip: true
+      tooltip: true,
+      colorScale: {
+        ending: '#00ff00',
+        starting: '#ff0000'
+      },
     }
   ]}
   title='Map test'
