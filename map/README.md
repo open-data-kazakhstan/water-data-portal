@@ -40,17 +40,6 @@ title: Су ресурстарының картасы
         ending: '#2AD587',
         starting: '#8EE80E'
       },
-    },
-    {
-      data: {
-        url: 'https://water.anuveyatsu.com/ne_110m_lakes.json',
-      },
-      name: 'lakes',
-      tooltip: true,
-      colorScale: {
-        ending: '#002C7C',
-        starting: '#00B2CB'
-      },
     }
   ]}
   title='Map'
