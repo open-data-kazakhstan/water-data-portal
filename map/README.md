@@ -55,4 +55,5 @@ title: Су ресурстарының картасы
   ]}
   title='Map'
   zoom={4}
+  style={"height": 800}
 />
