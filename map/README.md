@@ -21,5 +21,4 @@ title: Су ресурстарының картасы 🗺  Map view of water re
   ]}
   title='Map'
   zoom={4}
-  style={{height: 500, width: 800}}
 />
