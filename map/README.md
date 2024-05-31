@@ -10,36 +10,16 @@ title: Су ресурстарының картасы 🗺  Map view of water re
   layers={[
     {
       data: {
-        url: 'https://water.anuveyatsu.com/side_inflow.geojson',
-      },
-      name: 'side_inflow',
-      colorScale: {
-        ending: '#5000A8',
-        starting: '#8700AA'
-      },
-    },
-    {
-      data: {
-        url: 'https://water.anuveyatsu.com/rivers.geojson',
-      },
-      name: 'rivers',
-      colorScale: {
-        ending: '#5000A8',
-        starting: '#8700AA'
-      },
-    },
-    {
-      data: {
         url: 'https://water.anuveyatsu.com/basin.geojson',
       },
       name: 'basin',
       colorScale: {
         ending: '#2AD587',
         starting: '#8EE80E'
-      },
+      }
     }
   ]}
   title='Map'
   zoom={4}
-  style={{height: 600, width: 800}}
+  style={{height: 500, width: 800}}
 />
