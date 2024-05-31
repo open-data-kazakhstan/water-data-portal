@@ -1,7 +1,10 @@
 {
   "author": {
-    "url": "https://data.qiot.kz/"
+    "url": "https://data.qiot.kz/",
+    "logo": "https://water.anuveyatsu.com/water-resources.svg"
   },
   "logo": "https://water.anuveyatsu.com/water-resources.svg",
-  "showSidebar": true
+  "showSidebar": true,
+  "description": "Water resources data portal 🇰🇿",
+  "social": false
 }
