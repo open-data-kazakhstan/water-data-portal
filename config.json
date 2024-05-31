@@ -1,4 +1,7 @@
 {
-  "author": {"url": "https://data.qiot.kz/"},
+  "author": {
+    "url": "https://data.qiot.kz/",
+    "logo": "🇰🇿 Water Resources"
+  },
   "showSidebar": true
 }
