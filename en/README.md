@@ -4,7 +4,7 @@ title: Water resources data portal 🇰🇿
 
 Water Resources Data Portal is a comprehensive gateway to invaluable data on the country's water landscapes. Rivers, lakes, reservoirs, etc. Immerse yourself in a wealth of carefully curated datasets that provide a panoramic view of Kazakhstan's water resources. Whether you're a researcher, policymaker or environmental enthusiast, our user-friendly platform provides seamless access to critical information about water quality, quantity and usage patterns. Explore dynamic visualizations, conduct in-depth analysis, and uncover actionable insights to drive informed decision-making and sustainable water management practices. Join us on our journey to unlock the potential of Kazakhstan's water resources through data-driven exploration and innovation.
 
-[Map of water resources](/map)
+[Map view of water resources](/map)
 
 ---
 
